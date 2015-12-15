@@ -2,9 +2,9 @@
 
 # gridly [![Support this project][donate-now]][paypal-donations]
 
-The minimal (~157 bytes) grid system for modern browsers.
+The minimal (~100-170 bytes) grid system for modern browsers.
 
-You don't need monolithic CSS frameworks for simple grid systems. ~150 bytes of CSS can save your life. :dizzy:
+You don't need monolithic CSS frameworks for simple grid systems. ~100 bytes of CSS can save your life. :dizzy:
 
 ## Usage
 
@@ -12,7 +12,7 @@ In the [`dist`](/dist) directory there are three minified files:
 
  - `gridly-core.min.css` (105 B): just the Gridly core including same-width column support and mobile responsive support.
  - `gridly-col-widths.min.css` (92 B): the custom width columns
- - `gridly.min.css` (157 B): the previous two files' content put together
+ - `gridly.min.css` (165 B): the previous two files' content put together
 
 ## :rocket: Available on CDN!
 
@@ -77,6 +77,8 @@ Run `npm run release` to recreate all the `dist` files.
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [showalicense.com](http://showalicense.com/)–A site to provide an easy way to show licenses and their human-readable explanations. ([source](https://github.com/IonicaBizau/showalicense.com))
 
 ## License
 
